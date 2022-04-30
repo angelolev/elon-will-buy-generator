@@ -19,6 +19,7 @@ function App() {
     toPng(ref.current, { cacheBust: true })
       .then((dataUrl) => {
         const link = document.createElement("a");
+        setCurrentText("");
         link.download = "my-image-name.png";
         link.href = dataUrl;
         link.click();

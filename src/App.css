@@ -17,6 +17,7 @@ body {
 h1 {
   color: #fff;
   text-align: center;
+  margin-bottom: 50px
 }
 
 h3, h5 {
@@ -40,7 +41,6 @@ p {
   background-color: #fff;
   box-shadow:  0 2px 12px 0 rgb(60 60 60 / 10%);
   padding: 10px;
-  margin-top: 50px
 }
 
 .tweet__profile {
